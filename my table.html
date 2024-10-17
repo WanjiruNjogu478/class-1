@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<!--color,thickness, line-->
+
+    <style>
+
+        table{
+            font-family: sans-serif;
+            border-collapse: collapse;  /*also separate*/
+            width: 100%;
+            max-width: 500px; /*maximum width of the table*/
+            border-radius: 10px;
+            margin: 20px auto; /*to centre the table*/
+            overflow: hidden; /*applies the rounded corners correctly*/
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-bottom: 2px solid seagreen;
+        }
+
+        table,tr,th,td {
+            border-collapse: collapse;
+        }
+
+        .kk{
+           background-color: green;
+            color: azure;
+        }
+
+        #one{
+            background-color: white
+        }
+
+        h2{
+            background-color: green;
+            border-radius: 3px 3px;
+            border-bottom: red 2px solid;
+        }
+
+        th{
+            width: 200px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+  <h2>html tables</h2>
+
+   <table>
+
+    <tr class="kk">
+
+        <th>sport</th>
+        <th>place</th>
+        <th>points</th>
+        <th>proceed</th>
+
+    </tr>
+
+    <tr>
+
+        <td>volleyball</td>
+        <td>nanyuki stadium</td>
+        <td>59</td>
+        <td>yes</td>
+
+    </tr>
+
+    <tr>
+
+        <td>basketball</td>
+        <td>naromoru stadium</td>
+        <td>17</td>
+        <td>no</td>
+
+    </tr>
+
+    <tr id="one">
+
+        <td>football</td>
+        <td>Nyayo stadium</td>
+        <td>48</td>
+        <td>yes</td>
+
+    </tr>
+
+
+
+
+   </table>
+
+</body>
+</html>
